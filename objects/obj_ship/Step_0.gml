@@ -9,11 +9,11 @@ image_angle -= 5;
 }
 
 if(keyboard_check(vk_up)){
-motion_add(image_angle, 0.05);
+motion_add(image_angle, 0.03);
 }
 
 if(keyboard_check(vk_down)){
-motion_add(image_angle, -0.05);
+motion_add(image_angle, -0.03);
 }
 
 if(keyboard_check_pressed(vk_space)){
