@@ -16,5 +16,10 @@ with(other){
 			var new_asteroid = instance_create_layer(x, y, "Instances", obj_asteroid);
 			new_asteroid.sprite_index = spr_asteroid_small
 		} 
+	}
+	repeat(10){
+		instance_create_layer(x, y, "Instances", obj_debris);
+		
+	}
 }
-}
+
