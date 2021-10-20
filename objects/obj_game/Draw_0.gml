@@ -18,5 +18,26 @@ switch(room){
 		
 		break;
 		
+	case rm_win:
+		draw_set_halign(fa_center);
+		var c = c_lime
+		draw_text_transformed_color(room_width/2, 200, "You WON!!!!!", 
+			3, 3, 0, c,c,c,c, 1);
+		draw_text(room_width/2, 300, "PRESS ENTER TO RESTART!!!");
+		draw_set_halign(fa_center);
+		break; 
+		
+	case rm_gameover:
+	
+		draw_set_halign(fa_center);
+		var c = c_red
+		draw_text_transformed_color(room_width/2, 100, "GAME OVER", 
+			3, 3, 0, c,c,c,c, 1);
+		draw_text(room_width/2, 200, "Final Score: " + string(score));
+		
+		draw_text(room_width/2, 300, "PRESS ENTER TO RESTART!!!");
+		draw_set_halign(fa_center);
+	
+		break;
 }
  
