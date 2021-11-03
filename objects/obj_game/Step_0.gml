@@ -26,8 +26,11 @@ if(room == rm_game){
 	}	
 
 	if(lives <= 0){
-	global.final_score = score + ((global.level - 1)*50)
-	room_goto(rm_gameover);
+		global.final_score = score + ((global.level - 1)*50)
+		if(global.final_score > global.high_score){
+			global.high_score = global.final_score
+		}
+		room_goto(rm_gameover);
 	}
 }
 
