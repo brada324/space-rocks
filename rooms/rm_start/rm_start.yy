@@ -23,8 +23,8 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_D40B71E","path":"rooms/rm_start/rm_start.yy",},
     {"name":"inst_72E8401E","path":"rooms/rm_start/rm_start.yy",},
+    {"name":"inst_D40B71E","path":"rooms/rm_start/rm_start.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

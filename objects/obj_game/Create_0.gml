@@ -3,3 +3,5 @@
 
 score = 0;
 lives = 3; 
+
+global.get_alarm = -1
