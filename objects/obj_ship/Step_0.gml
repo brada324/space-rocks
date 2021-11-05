@@ -22,3 +22,9 @@ inst.direction = image_angle;
 }
 
 move_wrap(true, true, sprite_width);
+
+global.get_alarm -= 1;
+
+if(global.get_alarm == 0){
+spawn_off_camera(obj_asteroid, 40);
+}
