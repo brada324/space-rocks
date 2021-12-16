@@ -5,3 +5,9 @@ score = 0;
 lives = 3; 
 
 global.get_alarm = -1
+
+enum factions {
+	neutral,
+	ally,
+	enemy,
+}
