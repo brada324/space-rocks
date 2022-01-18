@@ -5,4 +5,6 @@ if(other == creator) exit;
 
 if(other.faction == faction) exit;
 
-with(other) event_perform(ev_other, ev_user1);
+with(other) {
+	event_perform(ev_other, ev_user1);
+	}

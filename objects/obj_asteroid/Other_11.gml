@@ -3,6 +3,7 @@
 
 score += 1;
 instance_destroy();
+instance_destroy(other);
 
 if(sprite_index == spr_asteroid_big){
 	repeat(2){
