@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(other == creator) exit;
+if(other.id == creator) exit;
 
 if(other.faction == faction) exit;
 
