@@ -7,3 +7,5 @@ direction = random_range(0, 359);
 image_angle = direction;
 
 HP = 1;
+bullet_counter = 0;
+original_speed = speed;
