@@ -20,7 +20,7 @@ if(keyboard_check_pressed(vk_space)){
 create_bullet(image_angle, bullet_spd, faction);
 }
 
-move_wrap(true, true, sprite_width);
+move_wrap(true, true, sprite_width/2);
 
 global.get_alarm -= 1;
 
