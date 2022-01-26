@@ -8,6 +8,6 @@ repeat(10){
 switch(object_index){
 	case obj_raider: score += 4; break;
 	case obj_hunter: score += 6; break;
-	case obj_brute: score += 8; break;
+	case obj_brute: score += 10; break;
 
 }
